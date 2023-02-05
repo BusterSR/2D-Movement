@@ -37,7 +37,7 @@ function create(){
   gameState.player = this.add.sprite(100, 100, 'player')
   gameState.cursors = this.input.keyboard.createCursorKeys()
 }
-
+//Player Controls
 function update(){
   if(gameState.cursors.down.isDown){
     gameState.player.y += 10
